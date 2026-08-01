@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://panoply-documentation.document360.io/docs/release-notes
+versioning:
+  scheme: semver
+  note: Flex Connector components are released under semantic versioning (vX.Y.Z);
+    the managed platform itself is continuously delivered with monthly release notes.
+  docs: https://panoply-documentation.document360.io/docs/release-notes
+release_notes: https://panoply-documentation.document360.io/docs/release-notes
+status_page: https://status.panoply.io
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: No published formal deprecation/Sunset-header policy found.
+sla:
+  url: null
+  note: No public SLA document found (SLA typically part of enterprise plans).
+deprecated_operations: []

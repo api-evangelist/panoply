@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://panoply.io/security/
+url: https://panoply.io/security/
+certifications:
+- SOC 2 Type 2
+- HIPAA
+- GDPR
+- FINRA
+detail:
+  soc2: Audited against and found compliant with SOC 2 security, availability, and
+    confidentiality principles by an independent auditor (Type 2).
+  hipaa: BAA available to maintain PHI security and HIPAA compliance.
+  gdpr: Storage-region availability to help maintain regulatory compliance.
+  finra: Supports FINRA compliance by excluding sensitive data from the warehouse.
+security_practices:
+- Hardware-accelerated RSA encryption
+- SSL/TLS in transit for data sources
+- IP whitelisting / firewall configuration
+- Role-based access (Viewers, Editors, Admins)
+evidence:
+- source: https://panoply.io/security/
+  keywords:
+  - soc 2 type 2
+  - hipaa
+  - gdpr
+  - finra

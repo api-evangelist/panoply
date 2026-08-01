@@ -1,0 +1,33 @@
+# Panoply
+
+> Panoply is a managed cloud data warehouse and ELT (Extract, Load, Transform) platform that centralizes data from 100+ sources into a BigQuery- or Redshift-backed warehouse. It pairs pre-built SaaS connectors and a customizable Flex Connector with a SQL workbench, code-free Query Builder, and in-platform dashboards, targeting startups and data teams that want analytics-ready data without managing infrastructure. Panoply is a SQream company.
+
+## Docs
+- [Documentation](https://panoply.io/docs/): Product documentation home
+- [Documentation portal (Document360)](https://panoply-documentation.document360.io/docs/): Full knowledge base
+- [Getting started / data sources](https://panoply.io/docs/data-sources-introduction/): Connecting your first data source
+- [Connecting BI tools](https://panoply.io/docs/connecting-bitools/): Tableau, Power BI, Looker, Grafana, Metabase, etc.
+- [Connecting ETL tools](https://panoply.io/docs/connecting-etl-tools/): Downstream ETL integrations
+- [Data protection & security](https://panoply.io/docs/data-protection/): Security and access controls
+
+## Integration surface
+- [Flex Connector](https://panoply-documentation.document360.io/docs/): Customizable API connector (authorization, variables, pagination, access-token refresh, async API support) for ingesting arbitrary REST APIs into Panoply
+- Note: Panoply does not publish a first-party public REST management API or OpenAPI spec; its programmable surface is the Flex Connector for consuming external APIs.
+
+## Product
+- [Platform](https://panoply.io/platform/): Feature overview
+- [Connectors](https://panoply.io/connectors/): 100+ pre-built data connectors
+- [Pricing](https://panoply.io/pricing/): Plans and pricing
+- [Sign up (21-day free trial)](https://platform.panoply.io/#/signup): Create an account
+
+## Operations
+- [Release notes / changelog](https://panoply-documentation.document360.io/docs/release-notes): Monthly release notes (2020–2025)
+- [Status page](https://status.panoply.io): Platform status
+- [Security & compliance](https://panoply.io/security/): SOC 2 Type 2, HIPAA (BAA), GDPR, FINRA
+- [Blog](https://blog.panoply.io): Data and analytics articles
+- [Support / contact](https://panoply.io/company/contact/): Contact and support
+
+## Legal
+- [Terms of Service](https://panoply.io/terms/)
+- [Privacy Policy](https://panoply.io/privacy-policy/)
+- [Data Processing Agreement](https://panoply.io/dpa/)

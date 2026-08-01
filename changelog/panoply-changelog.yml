@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+source: https://panoply-documentation.document360.io/docs/release-notes
+scheme: semver
+cadence: monthly
+current_version: Flex Connector v2.17.16
+url: https://panoply-documentation.document360.io/docs/release-notes
+entries:
+- version: Flex Connector v2.17.16
+  date: '2025-12-17'
+  breaking: false
+  highlights:
+  - The Flex Connector now supports skipping specific error codes when using the Fetch
+    List feature.
+notes: Panoply publishes monthly release notes spanning June 2020 through December
+  2025 in its Document360 documentation portal; only the most recent entry is captured
+  here (recent-window policy). Full history lives at the source URL.

@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of Panoply hosts
+hosts:
+- host: https://panoply.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://platform.panoply.io
+  note: Application host requires auth (401) on all /.well-known paths probed.
+  documents:
+  - path: /.well-known/security.txt
+    status: 401
+  - path: /.well-known/openid-configuration
+    status: 401
+- host: https://status.panoply.io
+  note: Status page is hosted on Atlassian Statuspage; the security.txt returned is
+    Atlassian's generic file, not a Panoply-owned disclosure program.
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    owner: atlassian (statuspage host)
+  - path: /.well-known/openid-configuration
+    status: 404
+result: No Panoply-owned .well-known discovery documents found; no WellKnown/SecurityTxt
+  scoring pointer emitted.

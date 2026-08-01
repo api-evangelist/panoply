@@ -1,8 +1,27 @@
 aid: panoply
 name: Panoply
-description: Panoply is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Panoply is a managed cloud data warehouse and ELT (Extract, Load, Transform)
+  platform that centralizes data from 100+ sources into a BigQuery- or Redshift-backed
+  warehouse. It pairs pre-built SaaS connectors and a customizable Flex Connector with
+  a SQL workbench, a code-free Query Builder, and in-platform dashboards, so startups
+  and data teams get analytics-ready data without managing infrastructure. Panoply
+  is a SQream company, backed by 500 Global, offering SOC 2 Type 2, HIPAA, GDPR, and
+  FINRA compliance postures. Its programmable surface is the Flex Connector for ingesting
+  external REST APIs; Panoply does not publish a first-party public REST management
+  API or OpenAPI specification.
 url: https://raw.githubusercontent.com/api-evangelist/panoply/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.google.com/s2/favicons?domain=panoply.io&sz=128
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Data Warehouse
+- ELT
+- Data Integration
+- Analytics
+- Cloud Data Platform
+- Connectors
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,40 @@ maintainers:
 common:
 - type: Website
   url: https://panoply.io
+- type: Documentation
+  url: https://panoply.io/docs/
+- type: GettingStarted
+  url: https://panoply.io/docs/data-sources-introduction/
+- type: Pricing
+  url: https://panoply.io/pricing/
+- type: SignUp
+  url: https://platform.panoply.io/#/signup
+- type: Support
+  url: https://panoply.io/company/contact/
+- type: Blog
+  url: https://blog.panoply.io
+- type: TermsOfService
+  url: https://panoply.io/terms/
+- type: PrivacyPolicy
+  url: https://panoply.io/privacy-policy/
+- type: StatusPage
+  url: https://status.panoply.io
+- type: Compliance
+  url: https://panoply.io/security/
+- type: TrustCenter
+  url: security/panoply-trust-center.yml
+- type: Conformance
+  url: conformance/panoply-conformance.yml
+- type: DomainSecurity
+  url: security/panoply-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/panoply-lifecycle.yml
+- type: ChangeLog
+  url: changelog/panoply-changelog.yml
+- type: LLMsTxt
+  url: llms/panoply-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1

@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+source: https://panoply.io/security/
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: Independently audited SOC 2 Type 2 (security, availability, confidentiality)
+    per https://panoply.io/security/
+- id: hipaa
+  conforms: true
+  evidence: BAA available for PHI security and HIPAA compliance
+- id: gdpr
+  conforms: true
+  evidence: Storage-region availability for GDPR compliance
+- id: finra
+  conforms: true
+  evidence: Supports FINRA compliance by excluding sensitive data from the warehouse
+- id: oauth2
+  conforms: false
+  evidence: No first-party public OAuth2 API surface published; platform is a managed
+    data warehouse
+- id: rfc9457-problem-details
+  conforms: false
